@@ -79,6 +79,10 @@ background-color: var(--light-bg);
     height: 90px;
 }
 
+.footer-text {
+    color: var(--light-bg);
+}
+
 .light-text {
     color: var(--primary-color);
 }
@@ -126,7 +130,7 @@ ul {
 
 /* -- /Layout -- */
 
-nav {
+header div nav {
     width: 50%;
 }
 
@@ -164,8 +168,13 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+    padding: 2rem;
 }
 
 p {
@@ -188,6 +197,22 @@ p {
     min-width: 450px;
 }
 
-.big-section .text-box, .big-section .image-box {
+.d-flex-column .text-box, .d-flex-column .image-box {
     width: 100%
 }
+
+.d-flex-start {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-ul li:first-child {
+    color: var(--light-bg);
+}
+
+.footer-ul li {
+    padding: 0.5rem;
+}
+
