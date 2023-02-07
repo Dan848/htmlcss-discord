@@ -234,3 +234,14 @@ hr {
     width: 50%;
     font-size: 1.3rem;
 }
+
+.wave-up {
+    opacity: 0.04;
+    margin-bottom: -5px;
+}
+
+.wave-down {
+    opacity: 0.04;
+    transform: rotate(180deg);
+}
+
